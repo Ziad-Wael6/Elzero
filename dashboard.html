@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Ziad Wael">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Zoz-Template-2/imgs/avatar.png">
+    <meta name="description" content="This is my page created by ziad wael">
+    <title>Dashboard</title>
+    <!-- main css file -->
+    <link rel="stylesheet" href="../Zoz-Template-2/css/main.css">
+    <!-- dashboard css file -->
+    <link rel="stylesheet" href="../Zoz-Template-2/css/dashboard.css">
+    <!-- Frame work css file -->
+    <link rel="stylesheet" href="../Zoz-Template-2/css/framework.css">
+    <!-- Font Awesome 5 Free -->
+    <link rel="stylesheet" href="../Zoz-Template-2/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!-- Start the project -->
+    <div class="page">
+        <aside>
+            <h3>El z<span>o</span>z</h3>
+            <ul>
+                <li class="active">
+                    <a href="dashboard.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <!-- page content -->
+        <div class="content">
+            <!-- header -->
+            <header>
+                <div class="search">
+                    <input type="search" name="search" id="search" placeholder="type a keyword">
+                </div>
+                <div class="icons">
+                    <i class="bell fa-regular fa-bell fa-lg"></i>
+                    <div class="image">
+                        <img src="../Zoz-Template-2/imgs/avatar.png" alt="profile">
+                    </div>
+                </div>
+            </header>
+            <!-- main title -->
+            <h1 class="dashboard">
+                Dashboard
+            </h1>
+            <!-- main content -->
+            <div class="container">
+
+                <div class="box welcome">
+                    <div class="head">
+                        <div class="text">
+                            <h2>welcome</h2>
+                            <p>El zoz</p>
+                        </div>
+                        <div class="image">
+                            <img src="../Zoz-Template-2/imgs/welcome.png" alt="Welcome">
+                        </div>
+                    </div>
+                    <img class="avatar" src="../Zoz-Template-2/imgs/avatar-01.jpg" alt="not found">
+                    <div class="inf">
+                        <div class="name">
+                            ziad wael
+                            <span>developer</span>
+                        </div>
+                        <div class="number">
+                            80
+                            <span>projects</span>
+                        </div>
+                        <div class="money">
+                            8500$
+                            <span>earned</span>
+                        </div>
+                    </div>
+                    <a href="#profile">
+                        profile
+                    </a>
+                </div>
+
+                <div class="box drafts">
+                    <div class="head">
+                        <h2>quick drafts</h2>
+                        <p>write a draft for your ideas</p>
+                    </div>
+                    <div class="thought">
+                        <input type="text" name="title" id="title" placeholder="Title">
+                        <textarea name="thought" placeholder="Your Thought"></textarea>
+                    </div>
+                    <input class="save" type="submit" value="Save" name="submit">
+                </div>
+
+                <div class="box targets">
+                    <div class="head">
+                        <h2>yearly targets</h2>
+                        <p>targets of the year</p>
+                    </div>
+                    <div class="main">
+                        <div class="money">
+                            <div class="icon i-blue ">
+                                <i class="fa-solid fa-dollar-sign fa-lg"></i>
+                            </div>
+                            <div class="text">
+                                <span class="name">Money</span>
+                                <span class="number">$120.000</span>
+                                <div class="prog-holder w-blue">
+                                    <div class="progress blue"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="icon i-orange">
+                                <i class="fa-solid fa-code fa-lg"></i>
+                            </div>
+                            <div class="text">
+                                <span class="name">Projects</span>
+                                <span class="number">24</span>
+                                <div class="prog-holder w-orange">
+                                    <div class="progress orange"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team">
+                            <div class="icon i-green">
+                                <i class="fa-solid fa-user fa-lg"></i>
+                            </div>
+                            <div class="text">
+                                <span class="name">Team</span>
+                                <span class="number">12</span>
+                                <div class="prog-holder w-green">
+                                    <div class="progress green"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="box tickets">
+                    <div class="head">
+                        <h2>tickets statistics</h2>
+                        <p>everything about support tickets</p>
+                    </div>
+                    <div class="holder">
+                        <div class="box">
+                            <i class="fa-regular fa-rectangle-list fa-2x c-orange"></i>
+                            <span class="number">2500</span>
+                            <span class="name">total</span>
+                        </div>
+                        <div class="box">
+                            <i class="fa-solid fa-spinner fa-2x c-blue"></i>
+                            <span class="number">500</span>
+                            <span class="name">pending</span>
+                        </div>
+                        <div class="box">
+                            <i class="fa-regular fa-circle-check fa-2x c-green"></i>
+                            <span class="number">1900</span>
+                            <span class="name">closed</span>
+                        </div>
+                        <div class="box">
+                            <i class="fa-regular fa-rectangle-xmark fa-2x c-red"></i>
+                            <span class="number">100</span>
+                            <span class="name">deleted</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box news">
+                    <div class="head">
+                        <h2>latest news</h2>
+                    </div>
+                    <div class="holder">
+                        <div class="cards">
+                            <img src="../Zoz-Template-2/imgs/news-11.jpg" alt="Not Found">
+                            <div class="text">
+                                <div class="inf">
+                                    <span class="title">Created SASS Section</span>
+                                    <p>New SASS Examples & Tutorials</p>
+                                </div>
+                                <div class="date">
+                                    3 days ago
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <img src="../Zoz-Template-2/imgs/news-05.jpg" alt="Not Found">
+                            <div class="text">
+                                <div class="inf">
+                                    <span class="title">Changed The Design</span>
+                                    <p>A Brand New Website Design</p>
+                                </div>
+                                <div class="date">
+                                    5 days ago
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <img src="../Zoz-Template-2/imgs/news-06.jpeg" alt="Not Found">
+                            <div class="text">
+                                <div class="inf">
+                                    <span class="title">Team Increased</span>
+                                    <p>3 Developers Joined The Team</p>
+                                </div>
+                                <div class="date">
+                                    7 days ago
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <img src="../Zoz-Template-2/imgs/news-10.png" alt="Not Found">
+                            <div class="text">
+                                <div class="inf">
+                                    <span class="title">Added Payment Gateway</span>
+                                    <p>Many New Payment Gateways Added</p>
+                                </div>
+                                <div class="date">
+                                    9 days ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box tasks">
+                    <div class="head">
+                        <h2>latest tasks</h2>
+                    </div>
+                    <div class="task">
+                        <div class="inf">
+                            <h3>Record One New Video</h3>
+                            <p>Record Python Create Exe Project</p>
+                        </div>
+                        <i class="fa-regular fa-trash-can delete"></i>
+                    </div>
+                    <div class="task">
+                        <div class="inf">
+                            <h3>Write Article</h3>
+                            <p>Write Low Level vs High Level Languages</p>
+                        </div>
+                        <i class="fa-regular fa-trash-can delete"></i>
+                    </div>
+                    <div class="task">
+                        <div class="inf">
+                            <h3>Finish Project</h3>
+                            <p>Publish Academy Programming Project</p>
+                        </div>
+                        <i class="fa-regular fa-trash-can delete"></i>
+                    </div>
+                    <div class="task">
+                        <div class="inf">
+                            <h3><del>Attend The Meeting</del></h3>
+                            <p><del>Attend The Project Business Analysis Meeting</del></p>
+                        </div>
+                        <i class="fa-regular fa-trash-can delete del"></i>
+                    </div>
+                    <div class="task">
+                        <div class="inf">
+                            <h3>Finish Lesson</h3>
+                            <p>Finish Teaching Flex Box</p>
+                        </div>
+                        <i class="fa-regular fa-trash-can delete"></i>
+                    </div>
+                </div>
+
+                <div class="box top">
+                    <div class="head">
+                        <h2>top search items</h2>
+                    </div>
+                    <div class="up">
+                        <span>keyword</span>
+                        <span>search count</span>
+                    </div>
+                    <div class="lang">
+                        Programming
+                        <span>220</span>
+                    </div>
+                    <div class="lang">
+                        JavaScript
+                        <span>180</span>
+                    </div>
+                    <div class="lang">
+                        PHP
+                        <span>160</span>
+                    </div>
+                    <div class="lang">
+                        Code
+                        <span>145</span>
+                    </div>
+                    <div class="lang">
+                        Design
+                        <span>110</span>
+                    </div>
+                    <div class="lang">
+                        Logic
+                        <span>95</span>
+                    </div>
+                </div>
+
+                <div class="box uploads">
+                    <div class="head">
+                        <h2>latests uploads</h2>
+                    </div>
+
+                    <div class="file">
+                        <img src="../Zoz-Template-2/imgs/pdf.svg" alt="not found">
+                        <div class="holder">
+                            <div class="inf">
+                                My-File.pdf
+                                <span class="name">Elzoz</span>
+                            </div>
+                            <span class="number">2.9mb</span>
+                        </div>
+                    </div>
+
+                    <div class="file">
+                        <img src="../Zoz-Template-2/imgs/avi.svg" alt="not found">
+                        <div class="holder">
+                            <div class="inf">
+                                My-Video-File.avi
+                                <span class="name">Admin</span>
+                            </div>
+                            <span class="number">4.9mb</span>
+                        </div>
+                    </div>
+
+                    <div class="file">
+                        <img src="../Zoz-Template-2/imgs/psd.svg" alt="not found">
+                        <div class="holder">
+                            <div class="inf">
+                                My-Psd-File.pdf
+                                <span class="name">Ziad</span>
+                            </div>
+                            <span class="number">4.5mb</span>
+                        </div>
+                    </div>
+
+                    <div class="file">
+                        <img src="../Zoz-Template-2/imgs/zip.svg" alt="not found">
+                        <div class="holder">
+                            <div class="inf">
+                                My-Zip-File.pdf
+                                <span class="name">User</span>
+                            </div>
+                            <span class="number">8.9mb</span>
+                        </div>
+                    </div>
+
+                    <div class="file">
+                        <img src="../Zoz-Template-2/imgs/dll.svg" alt="not found">
+                        <div class="holder">
+                            <div class="inf">
+                                My-DLL-File.pdf
+                                <span class="name">Admin</span>
+                            </div>
+                            <span class="number">4.9mb</span>
+                        </div>
+                    </div>
+
+                    <div class="file">
+                        <img src="../Zoz-Template-2/imgs/eps.svg" alt="not found">
+                        <div class="holder">
+                            <div class="inf">
+                                My-Eps-File.pdf
+                                <span class="name">Designer</span>
+                            </div>
+                            <span class="number">8.9mb</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="box last">
+                    <div class="head">
+                        <h2>last project progress</h2>
+                    </div>
+                    <ul>
+                        <li>Got The Project</li>
+                        <li>Started The Project</li>
+                        <li>The Project About To Finish</li>
+                        <li class="anim">Test The Project</li>
+                        <li class="none">Finish The Project & Get Money</li>
+                    </ul>
+                    <img src="../Zoz-Template-2/imgs/project.png" alt="not found">
+                </div>
+
+                <div class="box reminders">
+                    <div class="head">
+                        <h2>reminders</h2>
+                    </div>
+                    <div class="holder">
+                        <div class="remind blue">
+                            Check My Tasks List
+                            <span>28/10/2022 - 12:00am</span>
+                        </div>
+
+                        <div class="remind green">
+                            Check My Projects
+                            <span>26/11/2022 - 12:00am</span>
+                        </div>
+
+                        <div class="remind orange">
+                            Call All My Clients
+                            <span>05/12/2022 - 12:00am</span>
+                        </div>
+
+                        <div class="remind red">
+                            Finish The Development Workshop
+                            <span>20/01/2023 - 12:00am</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box post">
+                    <div class="head">
+                        <h2>latest post</h2>
+                    </div>
+                    <div class="intro">
+                        <img src="../Zoz-Template-2/imgs/avatar-01.jpg" alt="profile">
+                        <div class="text">
+                            Ziad Wael
+                            <span>About 3 Hours Ago </span>
+                        </div>
+                    </div>
+
+                    <div class="inf">
+                        You Can Fool All Of The People Some Of The Time, And Some Of The People All Of The Time, But
+                        You Can't Fool All Of The People All Of The Time.
+                    </div>
+
+                    <div class="icons">
+                        <div class="heart">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>1.8K</span>
+                        </div>
+
+                        <div class="comment">
+                            <i class="fa-regular fa-comments"></i>
+                            <span>500</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box social">
+                    <div class="head">
+                        <h2>social media stats</h2>
+                    </div>
+                    <div class="holder">
+                        <div class="twitter">
+                            <i class="fa-brands fa-twitter fa-2x"></i>
+                            <span>90K Followers</span>
+                            <a class="fs-13 c-white btn-shape" href="#">Follow</a>
+                        </div>
+
+                        <div class="face">
+                            <i class="fa-brands fa-facebook-f fa-2x"></i>
+                            <span>2M Like</span>
+                            <a class="fs-13 c-white btn-shape" href="#">Like</a>
+                        </div>
+
+                        <div class="youtube">
+                            <i class="fa-brands fa-youtube fa-2x"></i>
+                            <span>1M Subs</span>
+                            <a class="fs-13 c-white btn-shape" href="#">Subscribe</a>
+                        </div>
+
+                        <div class="linked">
+                            <i class="fa-brands fa-linkedin fa-2x"></i>
+                            <span>70K Followers</span>
+                            <a class="fs-13 c-white btn-shape" href="#">Follow</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- projects table -->
+            <div class="table-grid">
+                <div class="projects">
+                    <div class="head">
+                        <h2>projects</h2>
+                    </div>
+                    <div class="responsive">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Finish Date</th>
+                                    <th>Client</th>
+                                    <th>Price</th>
+                                    <th>Team</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Ministry Wikipedia</td>
+                                    <td>10 May 2022</td>
+                                    <td>Ministry</td>
+                                    <td>$5300</td>
+                                    <td>
+                                        <img src="../Zoz-Template-2/imgs/team-06.jpg" alt="not found">
+                                        <img src="../Zoz-Template-2/imgs/team-07.jpg" alt="not found">
+                                        <img src="../Zoz-Template-2/imgs/team-09.jpg" alt="not found">
+                                        <img src="../Zoz-Template-2/imgs/team-08.jpg" alt="not found">
+                                    </td>
+                                    <td><span class="orange">Pending</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Elzoz Shop</td>
+                                    <td>12 Oct 2022</td>
+                                    <td>ziad Company</td>
+                                    <td>$1500</td>
+                                    <td>
+                                        <img src="../Zoz-Template-2/imgs/team-01.png" alt="not found">
+                                        <img src="../Zoz-Template-2/imgs/team-02.png" alt="not found">
+                                        <img src="../Zoz-Template-2/imgs/team-11.jpg" alt="not found">
+                                    </td>
+                                    <td><span class="blue">in progress</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Bouba App</td>
+                                    <td>05 Sep 2021</td>
+                                    <td>Bouba</td>
+                                    <td>$800</td>
+                                    <td>
+                                        <img src="../Zoz-Template-2/imgs/team-10.jpg" alt="not found">
+                                        <img src="../Zoz-Template-2/imgs/team-03.png" alt="not found">
+                                    </td>
+                                    <td><span class="green">Completed</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Mahmoud Website</td>
+                                    <td>22 May 2021</td>
+                                    <td>Mahmoud</td>
+                                    <td>$600</td>
+                                    <td>
+                                        <img src="../Zoz-Template-2/imgs/team-07.jpg" alt="not found">
+                                        <img src="../Zoz-Template-2/imgs/team-09.jpg" alt="not found">
+                                    </td>
+                                    <td><span class="green">Completed</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Sayed Website</td>
+                                    <td>24 May 2021</td>
+                                    <td>Sayed</td>
+                                    <td>$300</td>
+                                    <td>
+                                        <img src="../Zoz-Template-2/imgs/team-06.jpg" alt="not found">
+                                        <img src="../Zoz-Template-2/imgs/team-08.jpg" alt="not found">
+                                    </td>
+                                    <td><span class="red">Rejected</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Arena Application</td>
+                                    <td>01 Mar 2022</td>
+                                    <td>Arena Company</td>
+                                    <td>$2600</td>
+                                    <td>
+                                        <img src="../Zoz-Template-2/imgs/team-07.jpg" alt="not found">
+                                        <img src="../Zoz-Template-2/imgs/team-09.jpg" alt="not found">
+                                        <img src="../Zoz-Template-2/imgs/team-05.png" alt="not found">
+                                        <img src="../Zoz-Template-2/imgs/team-11.jpg" alt="not found">
+                                    </td>
+                                    <td><span class="green">Completed</span></td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
